@@ -767,6 +767,21 @@ video {
   padding-bottom: 6rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -797,6 +812,14 @@ video {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-center {
@@ -991,6 +1014,10 @@ body {
     width: 100vw;
   }
 
+  .md\:w-\[90\%\] {
+    width: 90%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1023,6 +1050,11 @@ body {
          column-gap: 9rem;
   }
 
+  .md\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
   .md\:bg-veryPaleBlue {
     --tw-bg-opacity: 1;
     background-color: hsl(207 100% 98% / var(--tw-bg-opacity));
@@ -1040,6 +1072,22 @@ body {
 
   .md\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .md\:pt-44 {
+    padding-top: 11rem;
   }
 
   .md\:text-left {
@@ -1144,6 +1192,26 @@ body {
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .lg\:pt-\[6\.4rem\] {
