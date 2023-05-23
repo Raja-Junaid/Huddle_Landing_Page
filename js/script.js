@@ -13,19 +13,19 @@ const sr = ScrollReveal({
   origin: "top",
   distance: "100px",
   duration: 2500,
-  reset: false,
+  reset: true,
 });
 
-sr.reveal(".home__content, .about__img, .service__content, .contact__content", {
+sr.reveal(".left, .about__img, .service__content, .contact__content", {
   origin: "left",
 });
 
-sr.reveal(".home__img, .about__content, .service__info, .contact__form", {
+sr.reveal(".right, .about__content, .service__info, .contact__form", {
   origin: "right",
 });
 
 sr.reveal(
-  ".home, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
+  ".home, .home-img, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
   {
     origin: "bottom",
   }
