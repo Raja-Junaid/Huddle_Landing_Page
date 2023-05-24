@@ -25,7 +25,7 @@ sr.reveal(".right, .about__content, .service__info, .contact__form", {
 });
 
 sr.reveal(
-  ".home, .home-img, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
+  ".home, .home-img, .footer, .testimonial__wrapper, .blog__wrapper, .footer__content",
   {
     origin: "bottom",
   }
