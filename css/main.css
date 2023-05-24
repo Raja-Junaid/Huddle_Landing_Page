@@ -786,6 +786,10 @@ video {
        column-gap: 6rem;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -956,6 +960,14 @@ video {
 
 .pb-72 {
   padding-bottom: 18rem;
+}
+
+.pb-60 {
+  padding-bottom: 15rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
 }
 
 .text-center {
